@@ -1,0 +1,190 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+body{
+   font-size: 1em;
+   font-family:'Times New Roman', Times, serif;
+   color: #2e2e31;
+   text-align: center;
+
+}
+/* Comienzo del nav bar */
+
+header{
+   display: none;
+  
+}
+
+@media (min-width: 970px) {
+   header{
+      display: block;
+   }
+}
+
+.nav-header{
+   width: 100%;
+display: flex;
+justify-content: flex-end;
+background-color: #fff;
+padding: 25px 0;
+box-shadow: 0 0 29px 0 rgb(103 59 90 / 25%);
+font-size: 17px;
+color: #616161;
+position: fixed;
+
+}
+ul{
+   display: flex;
+   gap: 30px;
+   align-items: center;
+}
+.selected{
+   border-radius: 100px;
+   background-color: rgba(89, 89, 241, 0.652);
+   font-size: 17px;
+   color: #fff;
+   padding: 4px;
+}
+/* fin del navbar */
+
+/* comienzo seccion presentacion */
+
+@media (min-width: 970px) {
+   .about-box{
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+   }
+  
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+.about-img{
+   max-width: 500px;
+ 
+}
+
+.about-me{
+       width: 100%;
+       padding: 160px 57px 90px;
+}
+
+.after-name{
+
+   font-size: 30px;
+   margin-top: 0;
+   margin-bottom: 5px;
+   font-weight: 800;
+   color: #616161;
+}
+.about-name{
+
+   color: rgba(89, 89, 241, 0.652);
+   font-size:50px; ;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.about-description{
+   color: #616161;
+   font-size: 17px;
+   margin-bottom: 40px;
+}
+.button{
+   background-color: rgba(89, 89, 241, 0.652);
+   color: white;
+   padding: 12px 30px;
+   border-radius: 100px;
+   font-weight: 500;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+/* Fin seccion presentacion */
+
+/* Comienzo seccion habilidades */
+
+@media (min-width: 970px) {
+   .skills-section{
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+   }
+  
+}
+
+.skills-section{
+   width: 100%;
+   height: 100%;
+   background-color:rgb(239, 243, 244);
+   display: flex;
+   justify-content: center;
+   padding: 84px 40px 130px;
+   opacity: 100%;
+  
+}
+.about-skills{
+   width: 100%;
+   max-width: 1100px;
+}
+
+.skills-me{
+margin: 40px;
+font-size: 2.2em;
+}
+.lorem {
+   margin: 30px;
+   font-size: 1.5em;
+
+}
+
+
+@media (min-widht:970px){
+   .logo-boxes{
+      min-width: 100%;
+   }
+}
+.logo-boxes{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 40px;
+}
+.skills-grid{
+    font-size: 4em;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    display: block;
+    transition: 0.3s;
+}
+.skills-grid-item{
+   color: #2e2e31;
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    width: 260px;
+    margin: 10px;
+    padding: 30px;
+    transition: 0.2s;
+}
+.skills-title{
+    font-size: 1.25em;
+    font-weight: 700;
+    display: block;
+    flex-direction: end
+    ;
+
+ 
+}
+p{
+   display: block;
+   justify-content: space-around;
+}
+
+/* Fin de seccion habilidades */
