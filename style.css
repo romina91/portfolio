@@ -147,6 +147,7 @@ padding: 20px;
        align-items: center;
      
      
+     
 }
 
 
@@ -179,8 +180,7 @@ font-size: 2.2em;
 
    display: flex;
    flex-wrap: wrap;
-   margin-top: 40px auto;
-   max-width: 1100px;
+     max-width: 1100px;
      
 }
 
@@ -191,31 +191,41 @@ font-size: 2.2em;
     display: block;
     transition: 0.3s;
 }
+
 .skills-grid-item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color:#2e2e31;
-    gap: 100px 15 ;
-    background-color:#fff;
-    border: 1px solid #dddfe5;
-    border-radius: 8px;
-    width: 200px;
-    margin: auto;
-    transition: 0.2s;
+
+   flex-direction: column;
+   justify-content: center;
+   color: #2e2e31;
+   gap: 100px 20px;
+   border: 1px solid #22305c;
+   border-radius: 8px;
+   width: 224px;
+   margin: 60px;
+   margin-left: 50px;
+   padding-left: 10px;
+   transition: 0.2s;
+   box-sizing: border-box;
 }
 
 .skills-me{
        font-family:Verdana, Geneva, Tahoma, sans-serif;
        font-size: 2.5em;
 
+       /* quiero poner text shodow pero no lo consigo ni aqui en el padre */
+      
+
 }
  
+.skills-title{
+   text-align: center;
+   font-size: 1.3em;
+   margin: 10px auto;
+}
 
-p{
-   display: block;
-   justify-content: space-around;
-   font-family: Arial, Helvetica, sans-serif;
+.img-skills{
+width: 200px;
+height: 200px;
 }
 
 /* Fin de seccion habilidades */
@@ -240,7 +250,7 @@ padding-left: 30px;
 
 .someone-container{
    font-family: Georgia, 'Times New Roman', Times, serif;
-height: 500px;
+   height: 500px;
 }
 .someone{
  
@@ -253,4 +263,62 @@ height: 500px;
 .autor{
       margin: 100px;
       font-size: 1.5em;
+}
+/* Fin seccion apartado */
+
+/* comienzo seccion projects */
+
+.projects{
+   background-color: #ecf1f4;
+    width: 100%;
+    padding: auto;
+
+}
+
+.my-projects{
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 2.5em;
+       padding: 30px;
+}
+
+.text-project{
+   max-width: 1100px;
+   font-size: 1.5em;
+   margin: 40px auto;
+}
+
+.grill-projects{
+   display: flex;
+   flex-wrap: wrap;
+     max-width: 1100px;
+
+}
+
+.projects-grill-item{
+   
+    flex-direction: column;
+    justify-content: center;
+    color:#2e2e31;
+    gap: 100px 20px ;
+    border: 1px solid #22305c;
+    border-radius: 8px;
+    width: 200px;
+    margin: 60px;
+    margin-left: 50px;
+    padding-left: 10px;
+    transition: 0.2s;
+    box-sizing: border-box;
+
+
+}
+
+.tittle-project{
+   text-align: center;
+   font-size: 1.3em;
+   margin: 10px auto;
+}
+
+.img-project{
+   width: 100px;
+   height: 100px;
 }
