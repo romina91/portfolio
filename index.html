@@ -2,8 +2,10 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
@@ -34,7 +36,7 @@
     <!-- fin header -->
 
     <!-- comienzo seccion presentacion -->
-    <section class="about-me" id="about-me">
+    <section class="about-me" id="about">
         <div class="about-box">
             <div class="about-info">
                 <p class="after-name"> ¡Hola! Soy </p>
@@ -45,7 +47,7 @@
             </div>
 
             <div class="img-header">
-                <img src="./imagenes/ptrainer.svg" alt="about-img">
+                <img src="./imagenes/ptrainer.svg" class="about-img">
             </div>
         </div>
 
@@ -65,29 +67,29 @@
 
         <div class="logo-boxes">
             <div class="skills-grid-item">
-                <img  class="img-skills"  src="./imagenes/HTML.svg" alt="html">
+                <img class="img-skills" src="./imagenes/HTML.svg" alt="html">
                 <p class="skills-title">HTML 5</p>
             </div>
             <div class="skills-grid-item">
-                <img  class="img-skills"  src="./imagenes/CSS.svg" alt="css">
+                <img class="img-skills" src="./imagenes/CSS.svg" alt="css">
                 <P class="skills-title">CSS</P>
             </div>
             <div class="skills-grid-item">
-                <img  class="img-skills"  src="./imagenes/SASS.png" alt="sass">
+                <img class="img-skills" src="./imagenes/SASS.png" alt="sass">
                 <p class="skills-title">SASS</p>
             </div>
             <div class="skills-grid-item">
-                <img  class="img-skills"   src="./imagenes/JS.svg" alt="js">
+                <img class="img-skills" src="./imagenes/JS.svg" alt="js">
                 <p class="skills-title">JAVASCRIPT</p>
             </div>
 
             <div class="skills-grid-item">
-                <img class="img-skills"  src="./imagenes/REACT.svg" alt="react">
+                <img class="img-skills" src="./imagenes/REACT.svg" alt="react">
                 <p class="skills-title">REACT</p>
             </div>
 
             <div class="skills-grid-item">
-                <img class="img-skills"  src="./imagenes/GIT.svg" alt="git">
+                <img class="img-skills" src="./imagenes/GIT.svg" alt="git">
                 <p class="skills-title">GIT</p>
             </div>
         </div>
@@ -112,9 +114,9 @@
         </div>
     </section>
     <!-- fin se seccion apartado -->
-    <!-- comienzo seccion my projects -->
+    <!-- comienzo seccion  projects -->
 
-    <section class="projects">
+    <section class="projects" id="project">
         <h2 class="my-projects">Mis proyectos</h2>
         <p class="text-project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis voluptatum
             tenetur! Id, nesciunt?</p>
@@ -158,6 +160,147 @@
                 <p class="tittle-project">Buscador de peliculas</p>
             </a>
         </div>
+
     </section>
+    <!-- fin seccion projects -->
+    <!-- comienzo seccion contact -->
+    <section class="contact">
+
+        <div class="container-contact" id="contact">
+            <div class="contactme">
+                <h2>Contactame</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo
+                    nobis voluptatum tenetur! Id, nesciunt? Modi quasi repudiandae
+                    quam hic quo, qui cumque nam voluptates, ipsam, tempora eaque
+                    numquam eligendi.</p>
+
+                <ul class="menu-contact">
+                    <li class="item_contact-ig">
+                        <a href="https://www.instagram.com/romibolboch/" class="link_contact_ig" target="_blank"> <span
+                                class="redes_icono_ig"></span>
+                            <span class="fa-instagram">@romibolboch</span></a>
+                    </li>
+                    <li class="item_contact-lin">
+                        <a href="www.linkedin.com/in/bolbochanromina" class="link_contact_lin" target="_blank"> <span
+                                class="redes_icono_li"></span>
+                            <span class="fa-linkedin">bolbochanromina</span></a>
+                    </li>
+                    <li class="item_contact-git"> <a href="https://github.com/romina91" class="link_contact_git"
+                            target="_blank"> <span class="redes_icono_git"></span>
+                            <span class="fa-github">romina91</span></a>
+                    </li>
+                    <li class="item_contact-mail"> <a href="https://outlook.live.com/mail/0/" class="link_contact_mail"
+                            target="_blank"> <span class="redes_icono_mail"></span> <span
+                                class="fa-email">bolbochanromina@hotmail.com</span></a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+            <div class="contact-column-form">
+
+                <h2 class="write">Escribime</h2>
+
+                <form action="/my-handling-form-page" method="post">
+                    <div class="form-text">
+                        <div class="tetx-form">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="user_name" />
+
+                        </div>
+                        <div>
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </div>
+                    </div>
+
+                    <div class="text-mail">
+                        <label for="mail">Correo electrónico:</label>
+                        <input type="email" id="mail" name="user_mail" />
+                    </div>
+                    <div class="text-msj">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" cols="30" rows="10" class="mensaje" id="mensaje"
+                            placeholder="Escriba su mensaje aqui"></textarea>
+                    </div>
+                    <div class="button-form">
+                        <button class="button-form" type="submit">Enviar</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- fin seccion contacto -->
+    <!-- comienzo footer -->    
+    <footer>
+
+        <div class="nav-link-footer">
+            <nav class="nav-footer">
+                <ul>
+                    <li class="footer-item">
+                        <a href="aboutme" class="footer-nav-link">HOLA</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="project" class="footer-nav-link">CONOCIMIENTOS</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="conocimientos" class="footer-nav-link">PROYECTOS</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="contactme" class="footer-nav-link">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container-img-footer">
+
+            <ul class="nav-icon">
+                <li>
+                <li class="item_contact-ig">
+                    <a href="https://www.instagram.com/romibolboch/" class="link_contact_ig" target="_blank"> <span
+                            class="redes_icono_ig"></span>
+                    </a>
+                </li>
+
+                </li>
+                <li>
+                    <a href="www.linkedin.com/in/bolbochanromina" class="link_contact_lin" target="_blank"> <span
+                            class="redes_icono_li"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/romina91" class="link_contact_git" target="_blank"> <span
+                            class="redes_icono_git"></span>
+                    </a>
+
+                </li>
+                <li>
+                <li class="item_contact-mail"> <a href="https://outlook.live.com/mail/0/" class="link_contact_mail"
+                        target="_blank"> <span class="redes_icono_mail"></span></a>
+                </li>
+                </li>
+
+
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div class="madein-me">
+
+            <span class="creator"> Hecho con ❤️ por Romi</span>
+
+        </div>
+
+    </footer>
+
+
 
 </html>
